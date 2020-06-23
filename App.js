@@ -5,7 +5,6 @@ import TodoItem from './component/TodoItem'
 import Addtodo from './component/addtodo'
 
 
-
 export default function App() {
   const [todos , setTOdos] = useState([
     {text: 'buy Coffee', key: '1'},
